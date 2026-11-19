@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Courses - ISBAT University</title>
+    <link rel="stylesheet" href="portal.css">
+
+    <style>
+        .webtech {
+            background-color: #DCEBFA;
+        }
+
+        .cprog {
+            background-color: #E1F5EE;
+        }
+
+        .database {
+            background-color: #FAEEDA;
+        }
+
+        .networking {
+            background-color: #F3E5FA;
+        }
+
+        .timetable td {
+            text-align: center;
+            min-width: 85px;
+        }
+    </style>
+</head>
+<body>
+
+    <aside class="sidebar">
+        <h2>ISBAT</h2>
+        <p>Student Portal</p>
+
+        <div class="student-info">
+            <p>Student Name</p>
+            <h3>Daniel Kajjoba</h3>
+        </div>
+
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="courses.html">My Courses</a>
+            <a href="fee-statement.html">Fee Statement</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <h1>My Courses</h1>
+        <h2>Enrolled Courses</h2>
+
+        <table>
+            <tr>
+                <th>Course Code</th>
+                <th>Course Name</th>
+                <th>Credits</th>
+                <th>Lecturer</th>
+                <th>Room</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>BIT 1101</td>
+                <td>Web Technology</td>
+                <td>4</td>
+                <td>Mr. James Okello</td>
+                <td>Lab 2</td>
+                <td style="background-color: #E1F5EE; color: #085041;">Active</td>
+            </tr>
+
+            <tr>
+                <td>BIT 1102</td>
+                <td>Computer Programming</td>
+                <td>4</td>
+                <td>Ms. Sarah Nansubuga</td>
+                <td>Lab 1</td>
+                <td style="background-color: #E1F5EE; color: #085041;">Active</td>
+            </tr>
+
+            <tr>
+                <td>BIT 1103</td>
+                <td>Database Systems</td>
+                <td>3</td>
+                <td>Mr. Peter Ssemanda</td>
+                <td>Room 204</td>
+                <td style="background-color: #E1F5EE; color: #085041;">Active</td>
+            </tr>
+
+            <tr>
+                <td>BIT 1104</td>
+                <td>Computer Networks</td>
+                <td>3</td>
+                <td>Mr. David Kato</td>
+                <td>Room 305</td>
+                <td style="background-color: #E1F5EE; color: #085041;">Active</td>
+            </tr>
+
+            <tr>
+                <td>BIT 1105</td>
+                <td>Mathematics for Computing</td>
+                <td>3</td>
+                <td>Dr. Mary Atim</td>
+                <td>Room 102</td>
+                <td style="background-color: #FAEEDA; color: #633806;">Pending</td>
+            </tr>
+
+            <tr>
+                <td>BIT 1106</td>
+                <td>Communication Skills</td>
+                <td>2</td>
+                <td>Ms. Ruth Nakato</td>
+                <td>Room 101</td>
+                <td style="background-color: #E1F5EE; color: #085041;">Active</td>
+            </tr>
+        </table>
+
+        <h2>Weekly Timetable</h2>
+
+        <table class="timetable">
+            <tr>
+                <th>Day</th>
+                <th>8–9 AM</th>
+                <th>9–10 AM</th>
+                <th>10–11 AM</th>
+                <th>11–12 PM</th>
+                <th>12–1 PM</th>
+                <th>1–2 PM</th>
+                <th>2–3 PM</th>
+                <th>3–4 PM</th>
+                <th>4–5 PM</th>
+            </tr>
+
+            <tr>
+                <th>Monday</th>
+                <td colspan="2" class="webtech">Web Technology</td>
+                <td></td>
+                <td colspan="2" class="cprog">Computer Programming</td>
+                <td></td>
+                <td class="database">Database</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th>Tuesday</th>
+                <td class="database">Database</td>
+                <td></td>
+                <td colspan="2" class="networking">Computer Networks</td>
+                <td></td>
+                <td colspan="2" class="webtech">Web Technology</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th>Wednesday</th>
+                <td></td>
+                <td colspan="2" class="cprog">Computer Programming</td>
+                <td></td>
+                <td class="networking">Networks</td>
+                <td></td>
+                <td colspan="2" class="database">Database Systems</td>
+            </tr>
+
+            <tr>
+                <th>Thursday</th>
+                <td colspan="2" class="networking">Computer Networks</td>
+                <td></td>
+                <td class="webtech">Web Technology</td>
+                <td></td>
+                <td colspan="2" class="cprog">Computer Programming</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th>Friday</th>
+                <td></td>
+                <td class="database">Database</td>
+                <td></td>
+                <td colspan="2" class="webtech">Web Technology</td>
+                <td></td>
+                <td colspan="2" class="networking">Computer Networks</td>
+            </tr>
+        </table>
+
+    </main>
+
+</body>
+</html>
